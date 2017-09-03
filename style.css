@@ -1,0 +1,88 @@
+html {
+	min-height: 100%;
+    }
+
+body {
+    background-image: url(img/hotel-radcliffe-v2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navigation {
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#navigation ul li {
+    text-decoration: none;
+    color: #dbdbdb;
+    display: inline;
+    padding-right: 25px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#left {
+    width: 50%;
+    float: left;
+}
+
+#right {
+    width: 50%;
+    float: right;
+}
+
+#title h1 {
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Patua One', cursive;
+}
+
+#tagline h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#leftBtn {
+    float: left;
+    border: 2px solid #3ad9e9;
+    border-radius: 5%;
+    background-color: #3ad9e9;
+    width: 250px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#leftBtn p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px
+}
+
+#rightBtn {
+    float: right;
+    border: 2px solid #3ad9e9;
+    border-radius: 5%;
+    width: 250px;
+    height: 60px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+#rightBtn p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px
+}
